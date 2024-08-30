@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-@media screen and (min-width:992px){
-    Header{
+@media screen and (max-width:600px){
+    header{
         display: flex;
-        flex:row wrap;
-        justify-content: space-between;
-    
-    
+        flex-flow: column wrap;
     }
 
-    h1#titulo{
-        align-content: flex-start;
+    header h1#titulo{
+        text-align: center;
     }
 
-    nav#link{
-        align-self: flex-end;
-        display: inline-block;
-        
+    header a{
+        display: block;
+        margin: 5px;
+    }
+
+    header a:hover {
+        background-color: gray;
     }
 }
