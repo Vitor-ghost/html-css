@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px){
+    Header{
+        display: flex;
+        flex:row wrap;
+        justify-content: space-between;
+    
+    
+    }
+
+    h1#titulo{
+        align-content: flex-start;
+    }
+
+    nav#link{
+        align-self: flex-end;
+        display: inline-block;
+        
+    }
+}
