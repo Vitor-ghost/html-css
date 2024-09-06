@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width:600px){
+/*@media screen and (max-width:600px){
     header{
         display: flex;
         flex-flow: column wrap;
@@ -8,6 +8,7 @@
 
     header h1#titulo{
         text-align: center;
+        
     }
 
     header a{
